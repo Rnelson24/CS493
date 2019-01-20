@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Homework#4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+        
+        .btn{
+            margin:0 0 1rem 85%;
+        }
+    </style>
+
+    <!-- 
+        Use this array to populate to the table provided.
+        var students = [
+        {id: "123456789", name: "Sage Preston", score: 87.50},
+        {id: "574839465", name: "Keagan Hayes", score: 75.00},
+        {id: "874638298", name: "Araceli Decker", score: 98.00},
+        {id: "473820984", name: "Jesse Reese", score: 79.81},
+        {id: "294058957", name: "Jackson Golden", score: 88.50},
+        {id: "947586109", name: "Korbin Middleton", score: 62.00},
+        {id: "564738373", name: "Samson Mcintosh", score: 92.00},
+        {id: "984456789", name: "Marcel Francis", score: 93.50}
+    ]; -->
+    
+    </head>
+    <body>
+
+        <header>
+            <div id="alertbox"></div>
+            <div class="jumbotron text-center">
+                <h1 id="top">CS493 - Homework#4</h1>
+                <p id="leadtext" class="lead" >Due : 1/25/2019 - Late submission will not be accepted!</p>       
+                <hr >
+                <p >CS493 teaches students how to develop modern web pages using HTML and CSS. JavaScript and React.js will also be introduced.
+
+                </p>   
+            </div>
+        </header>
+
+        <div class="container">
+            <section>
+                <h2>Student Grade/Score</h2>
+                <p>When the button is clicked, you need to toggle between letter grades and score in percentage.</p>
+
+            <button type="button" class="btn btn-outline-info" id="btn-toggle">Show Grade</button>
+
+            <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Student Name</th>
+                            <th>Grade/Score</th>
+                        </tr>                        
+                    </thead>
+                        <tbody id="table-body">
+
+                        </tbody>
+                </table>        
+            <hr>
+            <h2>JSON data format</h2>
+            <p>When the button is clicked, the JSON string representation of the array of student objects will be displayed here. </p>
+            <button type="button" class="btn btn-outline-info" id="btn-json">Display JSON</button>
+            <div id="jsonformat"></div>
+            <br>
+
+
+        </section>
+ 
+
+    </div>
+    <footer class="page-footer bg-light">
+            <div class="footer-copyright text-center">&copy; by CS493 course</div>
+    </footer>
+        <script src="js/hw4.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>
+
